@@ -1,0 +1,233 @@
+
+body{
+    
+}
+
+
+ /*content*/
+.navbar{
+    
+   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding:1% 0% 1% 0%;    
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+
+}
+
+
+.logo1,.logo2{
+    font-size: 1.5em;
+}
+.logo1{
+    padding-left: 2%;
+}
+.logo2{
+    padding-right: 2%;
+}
+h1{
+    color:red;
+}
+.ques{
+    background:white;
+     
+}
+.numbers{
+    margin:1% 2% 0% 2%;
+}
+.numdisplay{
+    padding:2% 1% 2% 1%;
+    visibility: hidden; 
+}
+.current{
+    border:2px solid black;
+    font-weight: bold;
+    box-shadow: 2px 2px  grey;
+    
+}
+.num1{
+    background: #f2f2f2;
+    border-radius:50%;
+    width: 30px;
+    height:30px;
+    font-size: 1.2em;
+    padding:0 1% 0 1%;
+    margin:0.3%;
+
+}
+
+.timer
+{   
+   
+    margin:1% 0 2% 0% ;
+    padding:1% 0 0 0%;
+    font-weight: bold;
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:white;  
+    
+    border-radius:25px;  
+}
+.questions{
+    margin:0% 3% 0% 1%;  
+    width:90%; 
+    
+    margin-left:5%;
+  
+}
+.mquestions{
+    margin:2% 1% 2% 1%;
+    width:96%; 
+    margin-left:5%;
+    display:none;
+}
+.form-check{
+    
+   
+    padding: 1% 0 1%;
+    
+}
+.form-check:hover{
+    font-weight: bold;
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:white;  
+    
+}
+.mlist{
+    margin: 0% 0% 1% 15%;
+    
+   
+   
+    
+    
+}
+
+.scroll-box1{
+    overflow-y: scroll;
+    height:100px;
+    padding: 1rem;
+}
+.scroll-box{
+    overflow-y: scroll;
+    height:250px;
+    padding: 1rem;
+}
+.card{
+    border:0;
+}
+
+.card-header{
+    font-size:1.5em;
+    padding:2% 0 2% 2%;
+    
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:white;  
+    border-radius: 25px;
+}
+.card-footer{
+    padding-left:3%;
+}
+.bd-callout{
+    border-left:5px solid  #1CD8D2;
+    font-size: 1em;
+    padding: 1% 1% 1% 1%;
+    width:80%;
+}
+.list-group{
+    padding-left:1%;
+    padding-top: 1%;
+    width:80%;
+}
+footer{
+    padding-left:2%;
+    padding-right:2%;
+    padding-bottom: 1%;
+    width: 100%;
+    bottom:0;
+    position: relative;
+    
+   
+}
+.footer-check:hover{
+    background:#e6ffe6;
+}
+.sidenav {
+    height: 100%;
+    width: 60px;
+    position: fixed;
+    z-index: 1;
+    top: 13%;
+    left: 0;
+    background-color:white;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  .num{
+    background: #f2f2f2;
+    border-radius:50%;
+    width: 40px;
+    height:40px;
+    font-size: 1.2em;
+    padding:5% 1% 0 1%;
+    margin:0.3%;
+    text-align:center;
+    font-weight: bold;
+}
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .grp{
+    padding-left: 50%;
+   
+}
+.gp{
+    color:white; 
+    background: #004e92;
+}
+.gp:hover{
+    color:white;
+    background: #000428;
+}
+.sub{
+    float: right;
+    margin:1% 0 2% 0% ;
+    padding:3% 4% 3% 4%;
+    font-weight: bold;
+    background: #000428;  /* fallback for old browsers */
+       color:white;  
+    
+    border-radius:25px;  
+}
+
+.sub:hover{
+    color:white; 
+    background: #004e92;
+}
